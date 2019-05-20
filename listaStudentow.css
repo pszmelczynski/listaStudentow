@@ -1,0 +1,105 @@
+listaStudentow {
+    background-color: pink;
+  }
+
+student {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-left: 2px solid rgb(176,196,222);
+  border-right: 2px solid rgb(176,196,222);
+  border-top: 2px solid rgb(176,196,222);
+  border-bottom: 2px solid rgb(176,196,222);
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+student[wydzial='mfi'] {
+  background-color: lightcoral;
+  display: block
+  
+}
+
+student[wydzial='mfi']:before {
+  display: block;
+  margin-left:5px;
+  content:"Wydział MFI";
+  color: black;
+  font-weight: bold;
+}
+
+student[wydzial='historyczny'] {
+  background-color:  lightsalmon;
+  display: block
+  
+}
+
+student[wydzial='historyczny']:before {
+  display: block;
+  margin-left:5px;
+  content:"Wydział Historyczny";
+  margin-bottom:-2px;
+  color: black;
+  font-weight: bold;
+}
+
+imie {
+  color: darkblue;
+  display: inline-block;
+  font-size: 100%;
+  margin-left:5px;
+  font-weight: bold;
+}
+
+nazwisko {
+  margin-top:0px;
+  margin-left:1px;
+  display: inline-block;
+  font-size: 100%;
+  font-weight: bold;
+  color: darkblue;
+}
+
+kierunek {
+  display: block;
+  font-size: 90%;
+  color: darkblue;
+  margin-left:5px;
+  font-weight: bold;
+}
+
+kierunek:before {
+  margin-left:5px;
+  content:"Kierunek:  ";
+  margin-bottom:5px;
+  
+}
+
+nrIndeksu {
+  display: inline-block;
+  font-size: 100%;
+  color: darkblue;
+  font-weight: bold;
+}
+
+nrIndeksu:before {
+  margin-left:5px;
+  content:"indeks:  ";
+  margin-bottom:5px;
+  
+}
+
+sredniaOcen {
+  display: inline-block;
+  font-size: 90%;
+  color: darkblue;
+  font-weight: bold;
+}
+
+sredniaOcen:before {
+  margin-left:5px;
+  content:"Srednia ocen:  ";
+  margin-bottom:5px;
+  
+}
