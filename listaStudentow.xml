@@ -1,96 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="css/listaStudentow.css" ?>
+<!DOCTYPE listaStudentow SYSTEM "listaStudentow.dtd">
     <listaStudentow>
-        <student wydzial="mfi">
+        <student  id="N1" wydzial="mfi" grupa="gr1">
             <imie>Jan</imie>
             <nazwisko>Kowalski</nazwisko>
             <nrIndeksu>233122</nrIndeksu>
             <kierunek>Informatyka</kierunek>
             <sredniaOcen>4.00</sredniaOcen>
         </student>
-        <student wydzial="mfi">
+        <student  id="N2" wydzial="mfi" grupa="gr1">
             <imie>Aleksandra</imie>
             <nazwisko>Małek</nazwisko>
             <nrIndeksu>233011</nrIndeksu>
             <kierunek>Matematyka</kierunek>
             <sredniaOcen>3.20</sredniaOcen>
         </student>
-        <student wydzial="mfi">
+        <student wydzial="mfi" id="N3" grupa="gr1">
             <imie>Marek</imie>
             <nazwisko>Nowak</nazwisko>
             <nrIndeksu>230433</nrIndeksu>
             <kierunek>Fizyka</kierunek>
             <sredniaOcen>3.50</sredniaOcen>
         </student>
-        <student wydzial="mfi">
+        <student wydzial="mfi" id="N4" grupa="gr1">
             <imie>Paulina</imie>
             <nazwisko>Tyl</nazwisko>
             <nrIndeksu>245001</nrIndeksu>
             <kierunek>Matematyka</kierunek>
             <sredniaOcen>4.10</sredniaOcen>
         </student>
-        <student wydzial="mfi">
+        <student wydzial="mfi" id="N5" grupa="gr1"> 
             <imie>Jakub</imie>
             <nazwisko>Listkiewicz</nazwisko>
             <nrIndeksu>312111</nrIndeksu>
             <kierunek>Informatyka</kierunek>
             <sredniaOcen>4.40</sredniaOcen>
         </student>
-        <student wydzial="mfi">
+        <student wydzial="mfi" id="N6" grupa="gr1">
             <imie>Katarzyna</imie>
             <nazwisko>Olkiewicz</nazwisko>
             <nrIndeksu>332112</nrIndeksu>
             <kierunek>Informatyka</kierunek>
             <sredniaOcen>3.10</sredniaOcen>
         </student>
-        <student wydzial="mfi">
+        <student wydzial="mfi" id="N7" grupa="gr1">
             <imie>Marcel</imie>
             <nazwisko>Małkowski</nazwisko>
             <nrIndeksu>332111</nrIndeksu>
             <kierunek>Fizyka</kierunek>
             <sredniaOcen>4.60</sredniaOcen>
         </student>
-        <student wydzial="mfi">
+        <student wydzial="mfi" id="N8" grupa="gr1">
             <imie>Karol</imie>
             <nazwisko>Lis</nazwisko>
             <nrIndeksu>221331</nrIndeksu>
             <kierunek>Fizyka</kierunek>
             <sredniaOcen>4.80</sredniaOcen>
         </student>
-        <student wydzial="historyczny">
+        <student wydzial="historyczny" id="N9" grupa="gr1">
             <imie>Marcelina</imie>
             <nazwisko>Zawadzka</nazwisko>
             <nrIndeksu>433221</nrIndeksu>
             <kierunek>Historia</kierunek>
             <sredniaOcen>3.05</sredniaOcen>
         </student>
-        <student wydzial="historyczny">
+        <student wydzial="historyczny" id="N10" grupa="gr1">
             <imie>Piotr</imie>
             <nazwisko>Lubuski</nazwisko>
             <nrIndeksu>333232</nrIndeksu>
             <kierunek>Archeologia</kierunek>
             <sredniaOcen>3.90</sredniaOcen>
         </student>
-        <student wydzial="historyczny">
+        <student wydzial="historyczny" id="N11" grupa="gr1">
             <imie>Aleksander</imie>
             <nazwisko>Gumny</nazwisko>
             <nrIndeksu>226453</nrIndeksu>
             <kierunek>Archeologia</kierunek>
             <sredniaOcen>3.55</sredniaOcen>
         </student>
-        <student wydzial="historyczny">
+        <student wydzial="historyczny" id="N12" grupa="gr1">
             <imie>Kacper</imie>
             <nazwisko>Szczepański</nazwisko>
             <nrIndeksu>224352</nrIndeksu>
             <kierunek>Archeologia</kierunek>
             <sredniaOcen>4.75</sredniaOcen>
         </student>
-        <student wydzial="historyczny">
+        <student wydzial="historyczny" id="N13" grupa="gr1">
             <imie>Małgorzata</imie>
             <nazwisko>Ulaj</nazwisko>
             <nrIndeksu>222323</nrIndeksu>
             <kierunek>Historia</kierunek>
             <sredniaOcen>4.10</sredniaOcen>
         </student>
+        <Wydz wydzial="historyczny">historyczny</Wydz>
+        <Wydz wydzial="mfi">mfi</Wydz>
 
     </listaStudentow>
