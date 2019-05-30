@@ -1,0 +1,18 @@
+<!ELEMENT listaStudentow (student*, Wydz*)>
+<!ELEMENT student (imie, nazwisko, nrIndeksu, kierunek, sredniaOcen)>
+<!ATTLIST student 
+  wydzial IDREF #REQUIRED
+  id ID #REQUIRED
+  grupa CDATA #IMPLIED
+>
+
+<!ELEMENT Wydz (#PCDATA) >
+<!ATTLIST Wydz
+ wydzial ID #IMPLIED>
+
+
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT nrIndeksu (#PCDATA)>
+<!ELEMENT kierunek (#PCDATA)>
+<!ELEMENT sredniaOcen (#PCDATA)>
