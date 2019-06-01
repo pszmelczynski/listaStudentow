@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="listaStudentow">
+   <xs:complexType>
+    <xs:sequence>
+      <xs:element name="student" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:attribute name="wydzial">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="mfi"/>
+            <xs:enumeration value="historyczny"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:attribute>
+
+<xs:element name="student">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="imie"/>
+            <xs:element name="nazwisko"/>
+            <xs:element name="nrIndeksu"/>
+            <xs:element name="kierunek"/>
+            <xs:element name="sredniaOcen"/>
+        </xs:sequence>
+        <xs:attribute ref="wydzial" use="required"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="imie">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+            <xs:maxLength value="30"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="nazwisko">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:minLength value="2"/>
+        <xs:maxLength value="30"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="nrIndeksu">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:minLength value="6"/>
+        <xs:maxLength value="6"/>
+        <xs:pattern value="[0-9]{6}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="sredniaOcen">
+  <xs:simpleType>
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="2.00"/>
+      <xs:maxInclusive value="5.00"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:element name="kierunek">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+      <xs:enumeration value="Informatyka"/>
+      <xs:enumeration value="Matematyka"/>
+      <xs:enumeration value="Fizyka"/>
+      <xs:enumeration value="Historia"/>
+      <xs:enumeration value="Archeologia"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+</xs:schema>
