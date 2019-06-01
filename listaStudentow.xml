@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/css" href="css/listaStudentow.css" ?>
+<?xml-stylesheet type="text/xsl" href="/home/pito/Desktop/xml/listaStudentow/listaStudentow.xsl"?>
     <listaStudentow>
         <student wydzial="mfi">
             <imie>Jan</imie>
@@ -48,7 +48,7 @@
             <nazwisko>Małkowski</nazwisko>
             <nrIndeksu>332111</nrIndeksu>
             <kierunek>Fizyka</kierunek>
-            <sredniaOcen>4.60</sredniaOcen>
+            <sredniaOcen>2.60</sredniaOcen>
         </student>
         <student wydzial="mfi">
             <imie>Karol</imie>
@@ -62,14 +62,14 @@
             <nazwisko>Zawadzka</nazwisko>
             <nrIndeksu>433221</nrIndeksu>
             <kierunek>Historia</kierunek>
-            <sredniaOcen>3.05</sredniaOcen>
+            <sredniaOcen>2.45</sredniaOcen>
         </student>
         <student wydzial="historyczny">
             <imie>Piotr</imie>
             <nazwisko>Lubuski</nazwisko>
             <nrIndeksu>333232</nrIndeksu>
             <kierunek>Archeologia</kierunek>
-            <sredniaOcen>3.90</sredniaOcen>
+            <sredniaOcen>2.90</sredniaOcen>
         </student>
         <student wydzial="historyczny">
             <imie>Aleksander</imie>
@@ -90,7 +90,6 @@
             <nazwisko>Ulaj</nazwisko>
             <nrIndeksu>222323</nrIndeksu>
             <kierunek>Historia</kierunek>
-            <sredniaOcen>4.10</sredniaOcen>
+            <sredniaOcen>2.10</sredniaOcen>
         </student>
-
     </listaStudentow>
