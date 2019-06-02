@@ -5,8 +5,18 @@
    <xs:complexType>
     <xs:sequence>
       <xs:element name="student" maxOccurs="unbounded"/>
+      <xs:element name="Wydz" maxOccurs="2"/>
     </xs:sequence>
   </xs:complexType>
+  <xs:key name="WydzialKey"  >  
+    <xs:selector xpath="listaStudentow" />  
+    <xs:field xpath="Wydz" />  
+  </xs:key>  
+  
+  <xs:keyref name="WydzialKeyRef" refer="WydzialKey">  
+    <xs:selector xpath="listaStudentow/Student" />  
+    <xs:field xpath="@wydzial" />  
+  </xs:keyref> 
 </xs:element>
 
 <xs:attribute name="wydzial">
@@ -79,5 +89,4 @@
     </xs:restriction>
   </xs:simpleType>
 </xs:element>
-
-</xs:schema>
+</xs:schema> 
