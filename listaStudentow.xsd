@@ -9,8 +9,8 @@
     </xs:sequence>
   </xs:complexType>
   <xs:key name="WydzialKey"  >  
-    <xs:selector xpath="listaStudentow" />  
-    <xs:field xpath="Wydz" />  
+    <xs:selector xpath="listaStudentow/Wydz" />  
+    <xs:field xpath="@wydzial" />  
   </xs:key>  
   
   <xs:keyref name="WydzialKeyRef" refer="WydzialKey">  
